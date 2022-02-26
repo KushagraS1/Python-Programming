@@ -1,0 +1,29 @@
+# WAP in python to find BMI
+w=float(input("enter the weight"))
+h=float(input("Enter the height"))
+BMI=w/(h**2)
+print("the BMI is %0.2f"%BMI)
+
+# WAP in python to multiply a number by 32 without using multiplication operator
+a=int(input("enter any number "))
+print("the multiplied value is %d"%(a<<5))
+
+# WAP in python to multiply a number by 65 without using multiplication operator
+a=int(input("enter the number "))
+print("the multiplied value is %d"%((a<<6)+a))
+
+# WAP in python to find whether a numberis even or odd by using bitwise operator
+a=int(input("enter any number "))
+print(1&a)
+
+# WAP in python to input 2 coordinates from user and find the distance between them
+x1=float(input("enter x1 "))
+y1=float(input("enter y1 "))
+x2=float(input("enter x2 "))
+y2=float(input("enter y2 "))
+print("The distance between the points is %0.2f"%((((y2-y1)**2)+((x2-x1)**2))**0.5))
+
+# WAP in python to enter base and height then calculate hypotenuse of the triangle
+b=float(input("enter the base"))
+h=float(input("Enter the height"))
+print("hypotenuse is %0.2f"%(((b**2)+(h**2))**0.5))
